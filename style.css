@@ -1,0 +1,42 @@
+
+h1 {
+    color:darkcyan;
+}
+h2 {
+    color:deepskyblue;
+}
+h3{
+    color:blue; 
+}
+h4{
+    color:darkblue;
+}
+p{
+    color:purple;
+}
+body {
+    background-color:black;
+}
+#maindiv {
+    color: white;
+}
+.spanstyle {
+    color:gray;
+    background-color:lime;
+}
+
+a {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
