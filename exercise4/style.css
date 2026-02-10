@@ -1,0 +1,61 @@
+header {
+    background-color:lightskyblue;
+}
+
+h1 {
+    color:white;
+}
+h2 {
+    color:blue;
+}
+h3{
+    color:black; 
+    background-color:yellow;
+}
+h4{
+    background-color:green;
+    color:yellow;
+}
+h5 {
+    color:red;
+}
+p{
+    color:black;
+}
+body {
+    background-color:white;
+}
+#maindiv {
+    color: black;
+    background-color:palegreen;
+}
+#div2 {
+    background-color:yellow;
+}
+.spanstyle3 {
+    color:red;
+}
+.spanstyle {
+    color:orange;
+}
+.spanstyle2 {
+    color:black;
+    background-color:palegreen;
+}
+a {
+  color: green;
+  text-decoration:none;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+  text-decoration:underline;
+}
