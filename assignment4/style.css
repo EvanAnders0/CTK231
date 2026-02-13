@@ -1,0 +1,76 @@
+.customtext {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h2 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h3{
+    color:orange; 
+    font-style: italic;
+    font-weight: normal;
+}
+h4{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+p{
+    color:purple;
+}
+body {
+    background-color:darkgray;
+    background-image: url(lightblue.jpg);
+}
+#maindiv {
+    color: white;
+}
+.spanstyle {
+    color:gray;
+    background-color:lime;
+}
+
+a {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.textright {
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.imgbox {
+    border: 20px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow;
+}
+
+.textjustify {
+    text-align: justify;
+}
