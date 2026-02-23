@@ -1,0 +1,78 @@
+.borderbottom {
+  border-bottom: 3px solid black;
+}
+nav li {
+   display: inline-block; 
+   padding: 0px;
+   margin-bottom: 20px;
+}
+nav li a{
+    border: 1px solid black;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkblue;
+}
+nav li a:hover{
+    background-color:blue;
+}
+footer {
+    margin: 20px;
+    border: 3px solid white;
+    padding: 20px;
+    background-color: darkblue;
+}
+footer p {
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+li a {
+    text-decoration:none;
+    color: white;
+}
+h1 {
+    border: 1px gray;
+    padding: 20px;
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+main {
+    border: 1px gray;
+    padding: 20px;
+    background-color: white;
+}
+main p{
+    text-align: justify;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+body {
+    background-image: url("a5bg.png");
+}
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+main a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:visited{
+    color: blue;
+    font-weight:bold;
+    text-decoration:none;
+}
+main a:hover{
+    color:red;
+    font-weight: bold;
+    text-decoration: underline;
+}
