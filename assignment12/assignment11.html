@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 12: Javascript Fancybox</title>
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fancy.css">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+  	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script> 
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+  			<h1>EVAN ANDERS</h1>
+  		</header>
+		<nav>
+  			<ul>
+    			<li><a href="">Main Page</a></li>
+    			<li><a href="">Experience</a></li>
+    			<li><a href="">Contact</a></li>
+ 			</ul>
+  			</nav>
+    	<div id="specialpara">
+				<a href="goobswap.png" data-fancybox="gallery" data-caption="goobo swap icon">
+  					<img src="goobswap.png">
+				</a>
+			<div id="imagetext">
+    		<div id="specialh2"><h2>EDUCATION</h2></div>
+  				<p>This page will cover my educational history.</p>
+  				<p>Click the image to go to the page.</p>
+			</div>
+		</div>
+  		<div id="specialpara">
+				<a href="goobswap.png" data-fancybox="gallery" data-caption="goobo swap icon">
+  					<img src="goobswap.png">
+				</a>
+			<div id="imagetext">
+  			<div id="specialh2"><h2>PROJECTS</h2></div>
+  				<p>This page will display and exhibit various projects I have worked on and completed.</p>
+  				<p>Click the image to go to the page.</p>
+			</div>
+		</div>
+	</div>
+	<script>Fancybox.bind("[data-fancybox]", {});</script>
+</body>
+</html>
